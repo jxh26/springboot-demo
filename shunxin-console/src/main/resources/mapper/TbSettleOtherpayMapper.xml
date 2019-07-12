@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.minelan.mapper.TbSettleOtherpayMapper">
+  <resultMap id="BaseResultMap" type="com.minelan.entity.TbSettleOtherpay">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="settle_id" jdbcType="INTEGER" property="settleId" />
+    <result column="chargeName" jdbcType="VARCHAR" property="chargename" />
+    <result column="count" jdbcType="INTEGER" property="count" />
+    <result column="standard_price" jdbcType="DECIMAL" property="standardPrice" />
+    <result column="discount_money" jdbcType="DECIMAL" property="discountMoney" />
+  </resultMap>
+</mapper>

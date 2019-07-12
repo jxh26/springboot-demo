@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.minelan.mapper.TbOvertimeChargesMapper">
+  <resultMap id="BaseResultMap" type="com.minelan.entity.TbOvertimeCharges">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="start_time" jdbcType="TIME" property="startTime" />
+    <result column="end_time" jdbcType="TIME" property="endTime" />
+    <result column="lower_limit" jdbcType="INTEGER" property="lowerLimit" />
+    <result column="upper_limit" jdbcType="INTEGER" property="upperLimit" />
+    <result column="charge" jdbcType="INTEGER" property="charge" />
+    <result column="status" jdbcType="SMALLINT" property="status" />
+    <result column="batch" jdbcType="VARCHAR" property="batch" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+  </resultMap>
+</mapper>

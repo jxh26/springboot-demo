@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/parent-pom/parent-pom.iml" filepath="$PROJECT_DIR$/parent-pom/parent-pom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/shunxin.iml" filepath="$PROJECT_DIR$/.idea/shunxin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shunxin-api/shunxin-api.iml" filepath="$PROJECT_DIR$/shunxin-api/shunxin-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shunxin-commons/shunxin-commons.iml" filepath="$PROJECT_DIR$/shunxin-commons/shunxin-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shunxin-console/shunxin-console.iml" filepath="$PROJECT_DIR$/shunxin-console/shunxin-console.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shunxin-database/shunxin-database.iml" filepath="$PROJECT_DIR$/shunxin-database/shunxin-database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shunxin-model/shunxin-model.iml" filepath="$PROJECT_DIR$/shunxin-model/shunxin-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shunxin-service/shunxin-service.iml" filepath="$PROJECT_DIR$/shunxin-service/shunxin-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shunxin-web/shunxin-web.iml" filepath="$PROJECT_DIR$/shunxin-web/shunxin-web.iml" />
+    </modules>
+  </component>
+</project>

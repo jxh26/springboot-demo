@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.minelan.mapper.TbCarInsuranceMapper">
+  <resultMap id="BaseResultMap" type="com.minelan.entity.TbCarInsurance">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="car_id" jdbcType="INTEGER" property="carId" />
+    <result column="num" jdbcType="VARCHAR" property="num" />
+    <result column="insu_comp_id" jdbcType="INTEGER" property="insuCompId" />
+    <result column="insu_type" jdbcType="VARCHAR" property="insuType" />
+    <result column="commercial_policy" jdbcType="VARCHAR" property="commercialPolicy" />
+    <result column="effect_time" jdbcType="DATE" property="effectTime" />
+    <result column="fail_time" jdbcType="DATE" property="failTime" />
+    <result column="insurance" jdbcType="DOUBLE" property="insurance" />
+    <result column="third_insurance" jdbcType="DOUBLE" property="thirdInsurance" />
+    <result column="car_insurance" jdbcType="DOUBLE" property="carInsurance" />
+    <result column="personnel_insurance" jdbcType="DOUBLE" property="personnelInsurance" />
+    <result column="glass_insurance" jdbcType="DOUBLE" property="glassInsurance" />
+    <result column="self_ignite_insurance" jdbcType="DOUBLE" property="selfIgniteInsurance" />
+    <result column="not_find_third_insurance" jdbcType="DOUBLE" property="notFindThirdInsurance" />
+    <result column="sdew" jdbcType="DOUBLE" property="sdew" />
+    <result column="theft_protection" jdbcType="DOUBLE" property="theftProtection" />
+    <result column="other_cost" jdbcType="DOUBLE" property="otherCost" />
+    <result column="all_cost" jdbcType="DOUBLE" property="allCost" />
+    <result column="discount" jdbcType="DOUBLE" property="discount" />
+    <result column="actual_cost" jdbcType="DOUBLE" property="actualCost" />
+    <result column="pay_time" jdbcType="DATE" property="payTime" />
+    <result column="pay_name" jdbcType="VARCHAR" property="payName" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+  </resultMap>
+</mapper>

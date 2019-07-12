@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.minelan.mapper.TbCarDynamicInfoMapper">
+  <resultMap id="BaseResultMap" type="com.minelan.entity.TbCarDynamicInfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="car_id" jdbcType="INTEGER" property="carId" />
+    <result column="last_kilometer" jdbcType="DOUBLE" property="lastKilometer" />
+    <result column="last_scale" jdbcType="DOUBLE" property="lastScale" />
+    <result column="maintennace_count" jdbcType="INTEGER" property="maintennaceCount" />
+    <result column="last_maintenance_time" jdbcType="TIMESTAMP" property="lastMaintenanceTime" />
+    <result column="status" jdbcType="SMALLINT" property="status" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.minelan.mapper.TbBusinessInfoMapper">
+  <resultMap id="BaseResultMap" type="com.minelan.entity.TbBusinessInfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="cust_id" jdbcType="INTEGER" property="custId" />
+    <result column="buss_type" jdbcType="VARCHAR" property="bussType" />
+    <result column="industry" jdbcType="VARCHAR" property="industry" />
+    <result column="office_add" jdbcType="VARCHAR" property="officeAdd" />
+    <result column="regi_add" jdbcType="VARCHAR" property="regiAdd" />
+    <result column="buss_phone" jdbcType="VARCHAR" property="bussPhone" />
+    <result column="buss_mail" jdbcType="VARCHAR" property="bussMail" />
+    <result column="website" jdbcType="VARCHAR" property="website" />
+    <result column="regi_capital" jdbcType="VARCHAR" property="regiCapital" />
+    <result column="staff_size" jdbcType="VARCHAR" property="staffSize" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="setup_time" jdbcType="DATE" property="setupTime" />
+    <result column="effect_time" jdbcType="DATE" property="effectTime" />
+    <result column="fail_time" jdbcType="DATE" property="failTime" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+</mapper>

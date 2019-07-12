@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.minelan.mapper.TbPeccancyMapper">
+  <resultMap id="BaseResultMap" type="com.minelan.entity.TbPeccancy">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="car_id" jdbcType="INTEGER" property="carId" />
+    <result column="num" jdbcType="VARCHAR" property="num" />
+    <result column="pe_time" jdbcType="TIMESTAMP" property="peTime" />
+    <result column="points" jdbcType="INTEGER" property="points" />
+    <result column="show_time" jdbcType="TIMESTAMP" property="showTime" />
+    <result column="address" jdbcType="VARCHAR" property="address" />
+    <result column="behave" jdbcType="VARCHAR" property="behave" />
+    <result column="responsibility" jdbcType="INTEGER" property="responsibility" />
+    <result column="handler" jdbcType="INTEGER" property="handler" />
+    <result column="fine" jdbcType="INTEGER" property="fine" />
+    <result column="hand_time" jdbcType="TIMESTAMP" property="handTime" />
+    <result column="agency_fee" jdbcType="INTEGER" property="agencyFee" />
+    <result column="late_fee" jdbcType="INTEGER" property="lateFee" />
+    <result column="penalty" jdbcType="INTEGER" property="penalty" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+  </resultMap>
+</mapper>

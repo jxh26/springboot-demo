@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.minelan.mapper.TbMaintenanceCostMapper">
+  <resultMap id="BaseResultMap" type="com.minelan.entity.TbMaintenanceCost">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="mcost_id" jdbcType="INTEGER" property="mcostId" />
+    <result column="propmt_message" jdbcType="VARCHAR" property="propmtMessage" />
+    <result column="cost" jdbcType="REAL" property="cost" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+  </resultMap>
+</mapper>

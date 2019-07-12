@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.minelan.mapper.TbRentInContractMapper">
+  <resultMap id="BaseResultMap" type="com.minelan.entity.TbRentInContract">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="contract_number" jdbcType="VARCHAR" property="contractNumber" />
+    <result column="rent_company_id" jdbcType="INTEGER" property="rentCompanyId" />
+    <result column="effective_date" jdbcType="TIMESTAMP" property="effectiveDate" />
+    <result column="expiration_date" jdbcType="TIMESTAMP" property="expirationDate" />
+    <result column="status" jdbcType="SMALLINT" property="status" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="upate_time" jdbcType="TIMESTAMP" property="upateTime" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.minelan.mapper.TbQuoteInfoMapper">
+  <resultMap id="BaseResultMap" type="com.minelan.entity.TbQuoteInfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="quote_info_id" jdbcType="INTEGER" property="quoteInfoId" />
+    <result column="quote_id" jdbcType="INTEGER" property="quoteId" />
+    <result column="car_type_id" jdbcType="INTEGER" property="carTypeId" />
+    <result column="car_brand_id" jdbcType="INTEGER" property="carBrandId" />
+    <result column="rent" jdbcType="REAL" property="rent" />
+    <result column="in_three_hours" jdbcType="REAL" property="inThreeHours" />
+    <result column="base_charge" jdbcType="REAL" property="baseCharge" />
+    <result column="premium" jdbcType="REAL" property="premium" />
+    <result column="service_charge" jdbcType="REAL" property="serviceCharge" />
+    <result column="prepare_charge" jdbcType="REAL" property="prepareCharge" />
+    <result column="limit_kil_day" jdbcType="REAL" property="limitKilDay" />
+    <result column="over_kil_charge" jdbcType="REAL" property="overKilCharge" />
+    <result column="status" jdbcType="SMALLINT" property="status" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+  </resultMap>
+</mapper>

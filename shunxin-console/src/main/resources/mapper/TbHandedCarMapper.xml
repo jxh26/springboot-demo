@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.minelan.mapper.TbHandedCarMapper">
+  <resultMap id="BaseResultMap" type="com.minelan.entity.TbHandedCar">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="send_id" jdbcType="INTEGER" property="sendId" />
+    <result column="order_id" jdbcType="VARCHAR" property="orderId" />
+    <result column="handed_time" jdbcType="TIMESTAMP" property="handedTime" />
+    <result column="kil" jdbcType="REAL" property="kil" />
+    <result column="scale" jdbcType="REAL" property="scale" />
+    <result column="confirm_url" jdbcType="VARCHAR" property="confirmUrl" />
+    <result column="status" jdbcType="SMALLINT" property="status" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+  </resultMap>
+</mapper>

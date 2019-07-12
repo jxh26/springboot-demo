@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.minelan.mapper.TbCarTypeMapper">
+  <resultMap id="BaseResultMap" type="com.minelan.entity.TbCarType">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="brand_id" jdbcType="INTEGER" property="brandId" />
+    <result column="level_id" jdbcType="INTEGER" property="levelId" />
+    <result column="classify" jdbcType="INTEGER" property="classify" />
+    <result column="model_year" jdbcType="VARCHAR" property="modelYear" />
+    <result column="picture_url" jdbcType="VARCHAR" property="pictureUrl" />
+    <result column="length" jdbcType="REAL" property="length" />
+    <result column="width" jdbcType="REAL" property="width" />
+    <result column="height" jdbcType="REAL" property="height" />
+    <result column="structure" jdbcType="INTEGER" property="structure" />
+    <result column="oil_capacity" jdbcType="VARCHAR" property="oilCapacity" />
+    <result column="seats" jdbcType="INTEGER" property="seats" />
+    <result column="oil_wear" jdbcType="REAL" property="oilWear" />
+    <result column="air_input_type" jdbcType="INTEGER" property="airInputType" />
+    <result column="displacement" jdbcType="VARCHAR" property="displacement" />
+    <result column="unit" jdbcType="VARCHAR" property="unit" />
+    <result column="gear_type" jdbcType="INTEGER" property="gearType" />
+    <result column="gear_number" jdbcType="INTEGER" property="gearNumber" />
+    <result column="fuel_form" jdbcType="INTEGER" property="fuelForm" />
+    <result column="roz" jdbcType="INTEGER" property="roz" />
+    <result column="drive_mode" jdbcType="INTEGER" property="driveMode" />
+    <result column="sun_roof" jdbcType="INTEGER" property="sunRoof" />
+    <result column="seat_material" jdbcType="INTEGER" property="seatMaterial" />
+    <result column="car_back_radar" jdbcType="INTEGER" property="carBackRadar" />
+    <result column="gasbag" jdbcType="VARCHAR" property="gasbag" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+  </resultMap>
+</mapper>

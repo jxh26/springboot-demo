@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="shunxin-web:war">
+    <output-path>$PROJECT_DIR$/shunxin-web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>shunxin-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="shunxin-web-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="shunxin-web:war exploded" />
+    </root>
+  </artifact>
+</component>

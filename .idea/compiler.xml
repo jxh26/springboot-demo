@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="parent-pom" />
+        <module name="shunxin-api" />
+        <module name="shunxin-commons" />
+        <module name="shunxin-console" />
+        <module name="shunxin-database" />
+        <module name="shunxin-model" />
+        <module name="shunxin-service" />
+        <module name="shunxin-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo (1)" target="1.8" />
+      <module name="demo (2)" target="1.8" />
+      <module name="parent-pom" target="1.8" />
+      <module name="shunxin-api" target="1.8" />
+      <module name="shunxin-commons" target="1.8" />
+      <module name="shunxin-console" target="1.8" />
+      <module name="shunxin-database" target="1.8" />
+      <module name="shunxin-model" target="1.8" />
+      <module name="shunxin-service" target="1.8" />
+      <module name="shunxin-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo (1)" options="-parameters" />
+      <module name="demo (2)" options="-parameters" />
+      <module name="parent-pom" options="-parameters" />
+      <module name="shunxin-api" options="-parameters" />
+      <module name="shunxin-commons" options="-parameters" />
+      <module name="shunxin-console" options="-parameters" />
+      <module name="shunxin-database" options="-parameters" />
+      <module name="shunxin-model" options="-parameters" />
+      <module name="shunxin-service" options="-parameters" />
+      <module name="shunxin-web" options="-parameters" />
+    </option>
+  </component>
+</project>

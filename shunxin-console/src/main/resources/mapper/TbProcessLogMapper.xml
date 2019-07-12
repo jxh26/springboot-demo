@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.minelan.mapper.TbProcessLogMapper">
+  <resultMap id="BaseResultMap" type="com.minelan.entity.TbProcessLog">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="process_name" jdbcType="VARCHAR" property="processName" />
+    <result column="type" jdbcType="VARCHAR" property="type" />
+    <result column="relative_id" jdbcType="VARCHAR" property="relativeId" />
+    <result column="status" jdbcType="SMALLINT" property="status" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="source" jdbcType="SMALLINT" property="source" />
+  </resultMap>
+</mapper>

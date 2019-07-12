@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.minelan.mapper.TbPayMapper">
+  <resultMap id="BaseResultMap" type="com.minelan.entity.TbPay">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="charge_name" jdbcType="VARCHAR" property="chargeName" />
+    <result column="baseCarType" jdbcType="INTEGER" property="basecartype" />
+    <result column="standard_price" jdbcType="DECIMAL" property="standardPrice" />
+    <result column="company" jdbcType="VARCHAR" property="company" />
+    <result column="is_refund_allowed" jdbcType="INTEGER" property="isRefundAllowed" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="remarks" jdbcType="VARCHAR" property="remarks" />
+  </resultMap>
+</mapper>

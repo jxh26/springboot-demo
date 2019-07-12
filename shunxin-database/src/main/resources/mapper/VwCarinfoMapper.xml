@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.minelan.mapper.VwCarinfoMapper">
+  <resultMap id="BaseResultMap" type="com.minelan.entity.VwCarinfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="typeName" jdbcType="VARCHAR" property="typename" />
+    <result column="brandName" jdbcType="VARCHAR" property="brandname" />
+    <result column="levelName" jdbcType="VARCHAR" property="levelname" />
+    <result column="license_plate" jdbcType="VARCHAR" property="licensePlate" />
+    <result column="engine_number" jdbcType="VARCHAR" property="engineNumber" />
+    <result column="car_type_id" jdbcType="INTEGER" property="carTypeId" />
+    <result column="color" jdbcType="VARCHAR" property="color" />
+    <result column="extent" jdbcType="INTEGER" property="extent" />
+    <result column="ownership" jdbcType="INTEGER" property="ownership" />
+    <result column="scale" jdbcType="REAL" property="scale" />
+    <result column="purchase_date" jdbcType="TIMESTAMP" property="purchaseDate" />
+    <result column="car_url" jdbcType="VARCHAR" property="carUrl" />
+    <result column="supplier" jdbcType="VARCHAR" property="supplier" />
+    <result column="company_tel" jdbcType="VARCHAR" property="companyTel" />
+    <result column="company_address" jdbcType="VARCHAR" property="companyAddress" />
+    <result column="link_man" jdbcType="VARCHAR" property="linkMan" />
+    <result column="link_tel" jdbcType="VARCHAR" property="linkTel" />
+    <result column="original_cost" jdbcType="VARCHAR" property="originalCost" />
+    <result column="purchase_tax" jdbcType="VARCHAR" property="purchaseTax" />
+    <result column="license_plate_cost" jdbcType="VARCHAR" property="licensePlateCost" />
+    <result column="purchase_time" jdbcType="TIMESTAMP" property="purchaseTime" />
+    <result column="purchase_info_url" jdbcType="VARCHAR" property="purchaseInfoUrl" />
+    <result column="gps_device_number" jdbcType="VARCHAR" property="gpsDeviceNumber" />
+    <result column="gps_device_type" jdbcType="VARCHAR" property="gpsDeviceType" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="gear_type" jdbcType="INTEGER" property="gearType" />
+    <result column="roz" jdbcType="INTEGER" property="roz" />
+    <result column="oilCapacity" jdbcType="VARCHAR" property="oilcapacity" />
+    <result column="seats" jdbcType="INTEGER" property="seats" />
+    <result column="displacement" jdbcType="VARCHAR" property="displacement" />
+  </resultMap>
+</mapper>

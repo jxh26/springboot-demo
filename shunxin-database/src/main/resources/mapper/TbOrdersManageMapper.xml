@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.minelan.mapper.TbOrdersManageMapper">
+  <resultMap id="BaseResultMap" type="com.minelan.entity.TbOrdersManage">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="order_id" jdbcType="VARCHAR" property="orderId" />
+    <result column="cust_id" jdbcType="INTEGER" property="custId" />
+    <result column="contact" jdbcType="VARCHAR" property="contact" />
+    <result column="telephone" jdbcType="VARCHAR" property="telephone" />
+    <result column="contract_id" jdbcType="INTEGER" property="contractId" />
+    <result column="source" jdbcType="SMALLINT" property="source" />
+    <result column="car_type_id" jdbcType="INTEGER" property="carTypeId" />
+    <result column="rent_type" jdbcType="SMALLINT" property="rentType" />
+    <result column="quote_id" jdbcType="INTEGER" property="quoteId" />
+    <result column="quote_info_id" jdbcType="INTEGER" property="quoteInfoId" />
+    <result column="over_time_flag" jdbcType="VARCHAR" property="overTimeFlag" />
+    <result column="start_time" jdbcType="TIMESTAMP" property="startTime" />
+    <result column="predict_time" jdbcType="TIMESTAMP" property="predictTime" />
+    <result column="tenancy_term" jdbcType="VARCHAR" property="tenancyTerm" />
+    <result column="actual_tenancy_term" jdbcType="VARCHAR" property="actualTenancyTerm" />
+    <result column="get_on_address" jdbcType="VARCHAR" property="getOnAddress" />
+    <result column="destination" jdbcType="VARCHAR" property="destination" />
+    <result column="actual_time" jdbcType="TIMESTAMP" property="actualTime" />
+    <result column="super_rent_time" jdbcType="INTEGER" property="superRentTime" />
+    <result column="super_rent_cost" jdbcType="DOUBLE" property="superRentCost" />
+    <result column="nonwork_time" jdbcType="REAL" property="nonworkTime" />
+    <result column="nonwork_cost" jdbcType="DOUBLE" property="nonworkCost" />
+    <result column="super_mileage" jdbcType="DOUBLE" property="superMileage" />
+    <result column="super_mileage_cost" jdbcType="DOUBLE" property="superMileageCost" />
+    <result column="total" jdbcType="DOUBLE" property="total" />
+    <result column="is_payment" jdbcType="SMALLINT" property="isPayment" />
+    <result column="had_pay" jdbcType="DOUBLE" property="hadPay" />
+    <result column="pay_way" jdbcType="SMALLINT" property="payWay" />
+    <result column="pay_time" jdbcType="TIMESTAMP" property="payTime" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="status" jdbcType="SMALLINT" property="status" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="imprest" jdbcType="DOUBLE" property="imprest" />
+  </resultMap>
+</mapper>

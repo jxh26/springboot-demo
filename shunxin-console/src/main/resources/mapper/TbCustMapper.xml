@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.minelan.mapper.TbCustMapper">
+  <resultMap id="BaseResultMap" type="com.minelan.entity.TbCust">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="contact" jdbcType="VARCHAR" property="contact" />
+    <result column="industry" jdbcType="VARCHAR" property="industry" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="telephone" jdbcType="VARCHAR" property="telephone" />
+    <result column="mobliephone" jdbcType="VARCHAR" property="mobliephone" />
+    <result column="mobliephone2" jdbcType="VARCHAR" property="mobliephone2" />
+    <result column="address" jdbcType="VARCHAR" property="address" />
+    <result column="type" jdbcType="VARCHAR" property="type" />
+    <result column="cust_source" jdbcType="VARCHAR" property="custSource" />
+    <result column="juridical_person" jdbcType="VARCHAR" property="juridicalPerson" />
+    <result column="juridical_person_id" jdbcType="VARCHAR" property="juridicalPersonId" />
+    <result column="opening_bank" jdbcType="VARCHAR" property="openingBank" />
+    <result column="account" jdbcType="VARCHAR" property="account" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+  </resultMap>
+</mapper>

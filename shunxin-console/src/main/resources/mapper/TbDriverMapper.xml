@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.minelan.mapper.TbDriverMapper">
+  <resultMap id="BaseResultMap" type="com.minelan.entity.TbDriver">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="driver_name" jdbcType="VARCHAR" property="driverName" />
+    <result column="id_number" jdbcType="VARCHAR" property="idNumber" />
+    <result column="nation" jdbcType="VARCHAR" property="nation" />
+    <result column="nationality" jdbcType="VARCHAR" property="nationality" />
+    <result column="initial_validity_period" jdbcType="TIMESTAMP" property="initialValidityPeriod" />
+    <result column="termination_validity_period" jdbcType="TIMESTAMP" property="terminationValidityPeriod" />
+    <result column="certification_authority" jdbcType="VARCHAR" property="certificationAuthority" />
+    <result column="certificate_address" jdbcType="VARCHAR" property="certificateAddress" />
+    <result column="head_portrait" jdbcType="VARCHAR" property="headPortrait" />
+    <result column="front_id_photo" jdbcType="VARCHAR" property="frontIdPhoto" />
+    <result column="back_id_photo" jdbcType="VARCHAR" property="backIdPhoto" />
+    <result column="driver_license_number" jdbcType="VARCHAR" property="driverLicenseNumber" />
+    <result column="driver_license_type" jdbcType="VARCHAR" property="driverLicenseType" />
+    <result column="driver_license_collection_date" jdbcType="TIMESTAMP" property="driverLicenseCollectionDate" />
+    <result column="driver_license_expiration_date" jdbcType="TIMESTAMP" property="driverLicenseExpirationDate" />
+    <result column="driver_license_photos" jdbcType="VARCHAR" property="driverLicensePhotos" />
+    <result column="emergency_contact_information" jdbcType="VARCHAR" property="emergencyContactInformation" />
+    <result column="contact_phone_number" jdbcType="VARCHAR" property="contactPhoneNumber" />
+    <result column="contact_address" jdbcType="VARCHAR" property="contactAddress" />
+    <result column="serve_status" jdbcType="INTEGER" property="serveStatus" />
+    <result column="create_time_self" jdbcType="TIMESTAMP" property="createTimeSelf" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.minelan.mapper.TbCompanyMaintainMapper">
+  <resultMap id="BaseResultMap" type="com.minelan.entity.TbCompanyMaintain">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="company_name" jdbcType="VARCHAR" property="companyName" />
+    <result column="contacts" jdbcType="VARCHAR" property="contacts" />
+    <result column="industry" jdbcType="VARCHAR" property="industry" />
+    <result column="mail_box" jdbcType="VARCHAR" property="mailBox" />
+    <result column="phone_number" jdbcType="VARCHAR" property="phoneNumber" />
+    <result column="landline_one" jdbcType="VARCHAR" property="landlineOne" />
+    <result column="landline_two" jdbcType="VARCHAR" property="landlineTwo" />
+    <result column="detailed_address" jdbcType="VARCHAR" property="detailedAddress" />
+    <result column="company_type" jdbcType="INTEGER" property="companyType" />
+    <result column="remarks" jdbcType="VARCHAR" property="remarks" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+  </resultMap>
+</mapper>

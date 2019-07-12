@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.minelan.mapper.TbSettleMapper">
+  <resultMap id="BaseResultMap" type="com.minelan.entity.TbSettle">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="order_id" jdbcType="VARCHAR" property="orderId" />
+    <result column="rent_type" jdbcType="SMALLINT" property="rentType" />
+    <result column="total" jdbcType="DECIMAL" property="total" />
+    <result column="had_pay" jdbcType="DECIMAL" property="hadPay" />
+    <result column="other_pay_total" jdbcType="DECIMAL" property="otherPayTotal" />
+    <result column="pay_way" jdbcType="SMALLINT" property="payWay" />
+    <result column="pay_percent" jdbcType="DOUBLE" property="payPercent" />
+    <result column="receivables" jdbcType="DECIMAL" property="receivables" />
+    <result column="reduCount" jdbcType="DECIMAL" property="reducount" />
+    <result column="realPay" jdbcType="DECIMAL" property="realpay" />
+    <result column="remarks" jdbcType="VARCHAR" property="remarks" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="batch" jdbcType="VARCHAR" property="batch" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+  </resultMap>
+</mapper>
