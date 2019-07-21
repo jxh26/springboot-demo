@@ -8,7 +8,7 @@ import javax.persistence.Table;
 import java.util.Date;
 
 @Table(name = "tb_user")
-public class TbUser {
+public class TbUser implements java.io.Serializable{
     /**
      * 主键
      */

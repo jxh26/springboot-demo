@@ -10,7 +10,9 @@ public class ResultMap {
         this.msg = msg;
         this.obj = obj;
     }
-
+    public static ResultMap failure(String msg){
+        return new ResultMap(202,msg,null);
+    }
     public static ResultMap success(){
         return new ResultMap(200,"请求成功",null);
     }

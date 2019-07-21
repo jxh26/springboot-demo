@@ -19,4 +19,9 @@ public class UserServiceImpl extends BaseServiceImpl<TbUser, Integer> implements
     public Mapper<TbUser> getMapper() {
         return userMapper;
     }
+
+    @Override
+    public TbUser selectByUsername(String username) {
+        return userMapper.selectByUsername(username);
+    }
 }

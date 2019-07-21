@@ -19,10 +19,10 @@
         <hibernate-jpa-2.1-api.version>1.0.2</hibernate-jpa-2.1-api.version>
         <java.version>1.8</java.version>
         <mybatis-spring-boot-starter.version>2.0.1</mybatis-spring-boot-starter.version>
-        <mybatis-spring.veriosn></mybatis-spring.veriosn>
+        <mybatis-spring.veriosn>4.1.4</mybatis-spring.veriosn>
         <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
         <spring-boot-tk-mybatis.version>2.1.4</spring-boot-tk-mybatis.version>
-
+        <shiro-spring.version>1.4.0</shiro-spring.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -48,7 +48,14 @@
                 <artifactId>mapper-spring-boot-starter</artifactId>
                 <version>${spring-boot-tk-mybatis.version}</version>
             </dependency>
-
+            <!-- mybatis -->
+            <!-- shiro -->
+            <dependency>
+                <groupId>org.apache.shiro</groupId>
+                <artifactId>shiro-spring</artifactId>
+                <version>${shiro-spring.version}</version>
+            </dependency>
+            <!-- shiro -->
             <dependency>
                 <groupId>org.hibernate.javax.persistence</groupId>
                 <artifactId>hibernate-jpa-2.1-api</artifactId>
