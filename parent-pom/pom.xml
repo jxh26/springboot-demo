@@ -22,7 +22,7 @@
         <mybatis-spring.veriosn>4.1.4</mybatis-spring.veriosn>
         <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
         <spring-boot-tk-mybatis.version>2.1.4</spring-boot-tk-mybatis.version>
-        <shiro-spring.version>1.4.0</shiro-spring.version>
+        <shiro-spring.version>1.7.1</shiro-spring.version>
     </properties>
     <dependencyManagement>
         <dependencies>
